@@ -1,0 +1,63 @@
+body{
+    background-image: url("background.jpg"); /*input background inmage toi the body*/
+    background-repeat: no-repeat;  /*keeps the picture from repeating in the background*/
+    background-attachment: fixed; /*keeps the picture fixed in the background and won't move when scrolling!!*/
+    background-size: cover; /*makes the picture cover the entire background*/
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Papyrus" ; /*font style*/
+    text-align: center; /*where to align text on page*/
+    color: white;
+
+}
+
+p{
+    font-family: inherit;
+    text-align: center;
+    color: white;
+
+}
+
+img{
+    alt: "Gaming PC";
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 100px;
+    border: 5px solid white;
+    border-radius: 60px;
+    width: 400px;
+    height: 520px;
+    float: center;
+}
+
+button{
+    color: green;
+    background-color:black;
+    border-color: white; 
+    box-align: center;
+}
+
+/* for every link with an <a></a> in the html, this is the style choice 
+for the text when it is in each state*/
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}

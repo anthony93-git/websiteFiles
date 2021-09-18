@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--just a default heading-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--just a default heading-->
+    <!--link the .css file-->
+    <link rel="stylesheet" href="toolbox.css"/>
+    <!--title in the tab-->
+    <title>myWorld</title>
+</head>
+<body>
+    <!--header with 'Welcome' text-->
+    <h1><b>Welcome</b></h1>
+    <!--paragraph with 'Welcome to My Website World' text -->
+    <p style="font-size: 30px;"><b>Welcome to My Website World</b></p>
+    <!--inserting pictures/images on the page....and IDing one of the images (PC1) for 
+    later reference....the .css file has the layout-->
+    <img id="PC1" src="gamingPC1.jpg">
+    <img src="gamingPC2.jpg">
+    <img src="superComputer2.jpg">
+    <img src="SuperComputer3.jpg">
+    <!--a paragraph with text that displays "Click for More" that is also a link to w3schools website-->
+    <p><a href="https://www.w3schools.com/css/css_background_repeat.asp">Click for More</a></p>
+    <!--a button that when clicked, will navigate to the  'gamingPC1.jpg'....the button has 'Gaming PC'
+    text inside and is also edited in the .css file. -->
+    <button onclick="document.location='gamingPC1.jpg'"> Gaming PC</button>
+    <!--a link referencing an image file 'gamingPC1.jpg' that is also an image of the file which is 
+    decreased in size from the .css file...easily done by adding image source inside of href. -->
+    <a href="gamingPC1.jpg"><img src="gamingPC1.jpg" alt="Gaming PC" ></a>
+    <!-- a link referencing back to the 'gamingPC1.jpg' file, navigating to the image on the same
+    page with an ID we named PC1 which is displayed as 'Gaming Computer' in text. -->
+    <p><a href="#PC1">Gaming Computer</a></p>
+    <!--this is an iframe that can be used to show another webpage on the current webpagemn -->
+    <iframe src="https://www.google.com/" title="iframe Test"></iframe>
+    
+    
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newwebsite.css"/>
+    <script src="https://kit.fontawesome.com/9507b301e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="container">
+        <header class="sticky">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">Xperience</label>
+                <ul>
+                    <li><a href="newwebsite.html"><i class="fas fa-home"></i></a></li>
+                    <li><a href= "gamingPC.html">Gaming PC</a></li>
+                    <li><a href= "superComputer.html">Super Computer</a></li>
+                    <li><a href= "arduinoProjects.html">Arduino Projects</a></li>
+                    <li><a href= "github.html">GitHub</a></li>
+                    <li><a href= "interests.html">About Me</a></li>
+                    <li><a href= "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main2">
+            <p class="AE">"Strive not to be a success, but rather to be of value." -Albert Einstein</p>
+            <div class="title">
+                <h1 class="welcome">Gaming PC</h1>
+                <p class="description"> Custom Mid-Level Gaming PC Build</p>
+                <p class="detail">This build was done by myself and project partner, Omar Andrew Veliz, as
+                     a<br>personal project and learning experience.</p>
+            </div>
+<!-- press ! and enter to use default heading-->
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newwebsite.css"/>
+    <script src="https://kit.fontawesome.com/9507b301e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="sticky">
+        <div>
+            <nav>
+                <ul>
+                    <a href="newwebsite.html"><li class="fas fa-home"></li></a>
+                    <li><a href= "gamingPC.html">Gaming PC</a></li>
+                    <li><a href= "superComputer.html">Super Computer</a></li>
+                    <li><a href= "arduinoProjects.html">Arduino Projects</a></li>
+                    <li><a href= "raspberryPiProjects.html">Raspberry Pi Projects</a></li>
+                    <li><a href= "interests.html">Interests</a></li>
+                    <li><a href= "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="title">
+        <h1 class="gamingPChead">Gaming PC</h1>
+        <p class="description"> Custom Mid-Level Gaming PC Build</p>
+        <p class="detail">This build was done by myself and project partner, Omar Andrew Veliz, as
+             a<br>personal project and learning experience.</p>
+    </div>
+
+-->
+            <h1 class= "visuals">Visuals</h1>
+
+            <div class="product">
+                <div class="product-small-img">
+                    <img src="gamingPC1.jpg" onclick="myFunction(this)">
+                    <img src="gamingPC2.jpg" onclick="myFunction(this)">
+                    <img src="gamingPC3.jpg" onclick="myFunction(this)">
+                    <img src="gamingPC1.jpg" onclick="myFunction(this)">
+                    <img src="gamingPC2.jpg" onclick="myFunction(this)">
+                </div>
+                <div class="img-container">
+                    <img id="imageBox" src="gamingPC1.jpg">
+                </div>
+            </div>
+
+            <script>
+                function myFunction(smallImg){
+                    var fullImg= document.getElementById("imageBox");
+                    fullImg.src = smallImg.src;
+                }
+            </script>
+            <div class=specification>
+                <p class=specFont>Specifications</p>
+            </div>
+            <div class= "gamingPCspecs">
+                <p> <strong>CPU:</strong> AMD Ryzen 5 3600 3.6GHz 6-Core Processor</p>
+                <p> <strong>Motherboard:</strong> Gigabyte B550M AORUS PRO-P Micro ATX AM4 Motherboard</p>
+                <p> <strong>Memory:</strong> Team T-Dorce Delta RGB 16GB (2 x 8GB) DDR4-3600 CL 18 Memory</p>
+                <p> <strong>Storage:</strong> SK Hynix Gold P31 1TB M.2-2280 NVME Solid State Drive</p>
+                <p> <strong>Video Card:</strong> MSI GeForce RTX 3060 12GB Gaming X Video card</p>
+                <p> <strong>Case:</strong> darkFlash DLM 21 Micro ATX Mid Tower Case</p>
+                <p> <strong>Power Supply:</strong>Corsair RM (2019) 750W 80+ Gold Certified Fully Modular ATX Power Supply</p>
+                <p> <strong>Operating System:</strong> Windows 10</p>
+            </div>
+            <div class="description2">
+                <p> This project took some time to complete due to the shortage of micro chips in todays world. This makes it 
+                pretty difficult to obtain a video card for more of a quality display. During the duration of this project
+                a lot was learned about the physical architecture of a PC. The PC currently runs on a Windows 10  operating 
+                system and can compete with some of the leading gaming consoles.</p>
+
+                <p> The PC is a mid-level design however one could not argue against the fact that it is very aesthetically
+                pleasing, especially in a dark room. There are currently six cooling fans in the PC, five independent RGB
+                fans and one modular CPU cooling fan, for premium cooling and efficiency. </p>
+            </div>
+        </main>
+        <footer>
+            <div class="flexbox-container6">
+                <div class="flexbox-footer1 flexbox-footer-1">
+                    <h2>Links</h2>
+                    <ul class="footerLinks">
+                        <li><a class="footLink"href="newwebsite.html">Home</a></li>
+                        <li><a class="footLink"href= "gamingPC.html">Gaming PC</a></li>
+                        <li><a class="footLink"href= "superComputer.html">Super Computer</a></li>
+                        <li><a class="footLink"href= "arduinoProjects.html">Arduino Projects</a></li>
+                        <li><a class="footLink"href= "github.html">GitHub</a></li>
+                        <li><a class="footLink"href= "interests.html">About Me</a></li>
+                        <li><a class="footLink"href= "contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flexbox-footer1 flexbox-footer-2">
+                    <h2 class="accountHeading">Accounts</h2>
+                    <ul class="accountLinks">
+                        <li class="account"><a class="accountLink" href="https://www.instagram.com/"><i id="insta" class="fab fa-instagram"></i></a></li>
+                        <li class="account"><a class="accountLink" href="https://github.com/anthony93-git"><i class="fab fa-github"></i></a></li>
+                        <li class="account"><a class="accountLink" href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="flexbox-footer1 flexbox-footer-3">
+                    <p class="thankYou">"I hope you have a pleasant experience
+                        as well as enjoy my personal work and projects. Thank you for visiting this website." - Anthony Veliz </p>
+                    <p class="source">All photos on this website have been taken by the engineer as well as purchased professional photos.</p>
+                </div>                
+            </div>
+        </footer>
+</body>
+</html>

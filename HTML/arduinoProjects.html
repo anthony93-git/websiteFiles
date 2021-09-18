@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="newwebsite.css"/>
+    <script src="https://kit.fontawesome.com/9507b301e0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <div class="container">
+        <header class="sticky">
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <label class="logo">Xperience</label>
+                <ul>
+                    <li><a href="newwebsite.html"><i class="fas fa-home"></i></a></li>
+                    <li><a href= "gamingPC.html">Gaming PC</a></li>
+                    <li><a href= "superComputer.html">Super Computer</a></li>
+                    <li><a href= "arduinoProjects.html">Arduino Projects</a></li>
+                    <li><a href= "github.html">GitHub</a></li>
+                    <li><a href= "interests.html">About Me</a></li>
+                    <li><a href= "contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main4">
+            <p class="AE">"Strive not to be a success, but rather to be of value." -Albert Einstein</p>
+            <div class="title">
+                <h1 class="welcome">Arduino Projects</h1>
+                <p class="description">Developing Embedded System Prototypes</p>
+                <p class="detail">This is my website world where I share all about my experiences <br> 
+                    with computers and what I've learned in computer science.</p>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+
+                    
+                    <div class="slide first">
+                        <img src="ss1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="ss2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="ss3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="ss4.jpg" alt="">
+                    </div>
+
+
+                    <div class="navigation-auto">
+                            <div cass="auto-btn1"></div>
+                            <div cass="auto-btn2"></div>
+                            <div cass="auto-btn3"></div>
+                            <div cass="auto-btn4"></div>
+                    </div>
+
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+
+                </div>
+            </div>
+            <script> type="text/javascript"
+            var counter = 1;
+            setInterval(function(){
+                document.getElementById('radio' + counter).checked = true;
+                counter++;
+                if(counter > 4){
+                    counter = 1;
+                }
+            }, 5000);
+            </script>
+            <div class="ComponentsList2"><strong>Components List</strong></div>      
+            <div class="partsBox">
+                <p>- Elegoo Uno R3 <br>
+                    - 16x2 Liquid Crystal Display (LCD)  <strong>(Qty: 4)</strong><br>
+                    - Micro pushh buttons <strong> (Qty: 5</strong><br>
+                    - 5v realy<br>
+                    - Potentiometer<br>
+                    - Green Run LED </p>
+            </div>
+            <div class="aprojectDescription">
+                <p> This design and project was made with the intent to start an electric motor control panel at
+                    user's desire. It has since developed into something that i would like to call a smart starting 
+                    computer that can not only enable a start command for a control panel but any machine or device that requires
+                    a circuit completion to start.</p>
+
+                <p> Later on in the project, the design then featured autonomous starting options that the user would be able 
+                    adjust by navigating through the LCD screen. The starter will also feature an RTC (real time clock) that will be
+                    help the device to start anything attached to it at any given time the user desires. The project it still in 
+                    its prototyping stage and is not yet complete as more research is being completed on the real time clock 
+                    portion of the project. </p>
+
+
+            </div>
+        </main>
+        <footer>
+            <div class="flexbox-container6">
+                <div class="flexbox-footer1 flexbox-footer-1">
+                    <h2>Links</h2>
+                    <ul class="footerLinks">
+                        <li><a class="footLink"href="newwebsite.html">Home</a></li>
+                        <li><a class="footLink"href= "gamingPC.html">Gaming PC</a></li>
+                        <li><a class="footLink"href= "superComputer.html">Super Computer</a></li>
+                        <li><a class="footLink"href= "arduinoProjects.html">Arduino Projects</a></li>
+                        <li><a class="footLink"href= "github.html">GitHub</a></li>
+                        <li><a class="footLink"href= "interests.html">About Me</a></li>
+                        <li><a class="footLink"href= "contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="flexbox-footer1 flexbox-footer-2">
+                    <h2 class="accountHeading">Accounts</h2>
+                    <ul class="accountLinks">
+                        <li class="account"><a class="accountLink" href="https://www.instagram.com/"><i id="insta" class="fab fa-instagram"></i></a></li>
+                        <li class="account"><a class="accountLink" href="https://github.com/anthony93-git"><i class="fab fa-github"></i></a></li>
+                        <li class="account"><a class="accountLink" href="https://www.linkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="flexbox-footer1 flexbox-footer-3">
+                    <p class="thankYou">"I hope you have a pleasant experience
+                        as well as enjoy my personal work and projects. Thank you for visiting this website." - Anthony Veliz </p>
+                    <p class="source">All photos on this website have been taken by the engineer as well as purchased professional photos.</p>
+                </div>                
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
